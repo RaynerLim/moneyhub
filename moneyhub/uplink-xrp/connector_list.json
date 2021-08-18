@@ -1,0 +1,18 @@
+{
+    "live": [
+      "ilsp1.solsticehub.io/moneyd"
+    ],
+    "old": [
+      "btp.connector0.com",
+      "btp1.mlab.company",
+      "btp2.mlab.company",
+      "btp3.mlab.company",
+      "client.scyl.la",
+      "ilp.worldconnector.link",
+      "ilp1.internetofvalue.xyz",
+      "strata-ilsp.com/xrp"
+    ],
+    "test": [
+      "strata-ilsp.com/testnet/xrp"
+    ]
+  }

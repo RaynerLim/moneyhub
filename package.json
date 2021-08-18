@@ -1,0 +1,28 @@
+{
+  "name": "repmontest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "debug": "^4.3.2",
+    "good-table": "^1.0.3",
+    "ilp-connector": "^23.0.2",
+    "ilp-plugin": "^3.5.3",
+    "ilp-plugin-mini-accounts": "^4.2.0",
+    "ilp-plugin-xrp-asym-client": "^1.6.0",
+    "ilp-protocol-spsp": "^3.0.0",
+    "inquirer": "^8.1.2",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
+    "ripple-lib": "^1.9.8",
+    "yargs": "^17.1.0"
+  }
+}

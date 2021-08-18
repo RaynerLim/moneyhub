@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "uplinks": {
+    "btp": {
+      "relation": "parent",
+      "plugin": "C:\\Neo\\repmontest\\node_modules\\ilp-plugin-btp\\index.js",
+      "assetCode": "XRP",
+      "assetScale": 9,
+      "sendRoutes": false,
+      "receiveRoutes": false,
+      "options": {
+        "server": "btp+wss://GsY5wdYWgOvykG2KMlBZVQqdH57aYcAwNFVJ86PXLmU:e42e32b920f92da77f85c9e9b6837e7b@us1.rafiki.money/btp"
+      }
+    },
+    "xrp": {
+      "relation": "parent",
+      "plugin": "C:\\Neo\\repmontest\\node_modules\\ilp-plugin-xrp-asym-client\\index.js",
+      "assetCode": "XRP",
+      "assetScale": 9,
+      "balance": {
+        "minimum": "-Infinity",
+        "maximum": "20000000",
+        "settleThreshold": "0",
+        "settleTo": "10000000"
+      },
+      "sendRoutes": false,
+      "receiveRoutes": false,
+      "options": {
+        "currencyScale": 9,
+        "server": "btp+wss://kLRqbiYo2pcJcn4fdfqSi2_nAjZBx39yEUmsB3ku8HY:a1cb0706efc0da9e2595ffbce8da52c1758f99ff20ad8489b6a5a047de8cf0fa@strata-ilsp.com/testnet/xrp",
+        "secret": "ssrsXHMvme7PLKLz6g6R8iwuQKXUJ",
+        "address": "rLGNkh5QhoJECARLNYnmhi2VkeZpCaX82Y",
+        "xrpServer": "wss://s.altnet.rippletest.net:51233"
+      }
+    }
+  }
+}

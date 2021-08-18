@@ -1,0 +1,9 @@
+{
+    "live": [
+      "wss://s1.ripple.com", 
+      "wss://s2.ripple.com"
+    ],
+    "test": [
+      "wss://s.altnet.rippletest.net:51233"
+    ]
+  }
